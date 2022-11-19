@@ -1,0 +1,42 @@
+{
+  "name": "pollux",
+  "version": "0.1.0",
+  "private": true,
+  "source": "src/index.html",
+  "dependencies": {
+    "@popperjs/core": "^2.10.2",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "react-scroll-motion": "^0.2.6",
+    "vanilla-tilt": "^1.7.2"
+  },
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "type": "module",
+  "license": "ISC",
+  "author": "Shivam Mane",
+  "keywords": ["Logistics","Pollux","transport","good service"],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "devDependencies": {
+      "@parcel/transformer-sass": "^2.0.1",
+      "parcel": "^2.0.1",
+      "prettier": "^2.4.1"
+    },
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.0",
+    "parcel": "^2.8.0"
+  }
+}
